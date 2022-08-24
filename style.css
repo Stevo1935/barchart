@@ -1,0 +1,236 @@
+*{
+    border:0;
+    margin: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+   .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color:hsl(27, 66%, 92%);
+}
+.main-div{
+    
+}
+.first-div{
+    height: 90px;
+    width: 400px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 15px;
+    color: white;
+    margin: 101px auto 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-div{
+    height: 370px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto 10px;
+}
+.second-div h2 {
+    font-family: 'DM sans';
+    font-weight: 700;
+    margin: 0px 0px 0 25px;
+    padding-top: 20px;
+}
+img {
+    float: right;
+    display: flex;
+    margin: auto;
+    margin-right: 20px;
+}
+.nav-p{
+    margin: auto;
+    margin-left: 20px;
+}
+.first-div p {
+    font-family: 'DM sans';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.first-div h3{
+    font-size: 25px;
+}
+.mon{
+    width:40px;
+    height: 35px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 130px;
+}
+.tue{
+    width: 40px;
+    height: 70px;
+     background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    margin-top: 95px;
+}
+.wed{
+    width:40px ;
+    height:100px ;
+     background-color:hsl(186, 34%, 60%);
+    border-radius: 5px;
+     margin-top: 65px;
+}
+.thu{
+    width: 40px;
+    height:65px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.fri{
+    width:40px ;
+    height: 55px;
+     background-color:hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 110px;
+}
+.sat{
+    width:40px ;
+    height: 90px;
+    background-color:hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 75px;
+}
+.sun{
+    width: 40px;
+    height: 57px;
+     background-color:hsl(10, 79%, 65%);
+    border-radius: 5px;
+    margin-top: 107px;
+}
+.chart{
+    display: flex;
+    width: 350px;
+    margin-left: 25px;
+}
+.bar{
+    display: flex;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+.weekdays{
+    display: flex;
+    margin-left: 35px;
+    font-family: 'DM sans';
+    font-size: 13px;
+}
+.weekdays p {
+    margin-right: 30px;
+}
+hr{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    margin: 30px 50px;
+}
+.last-div{
+    font-family: 'DM sans';
+    display:flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+h3{
+    font-family: 'DM sans';
+    font-weight: 700;
+}
+.open-wed{
+    font-size: 13px;
+    position: absolute;
+  top: 43%;
+  left:45%;
+  transform: translate(-15%, -15%);
+  width: 30px;
+  height: 15px;
+list-style: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+    z-index: 5;
+}
+.open-thu{
+    font-size: 13px;
+    position: absolute;
+  top: 48%;
+  left:49%;
+  transform: translate(-15%, -15%);
+  width: 30px;
+  height: 15px;
+list-style: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+    z-index: 5;
+}
+.hidden{
+    display: none;
+}
+@media screen and (min-width:375px) {
+    .first-div{
+      width:326px;
+        margin: 40px 20px 10px;
+    }
+    .first-div h3{
+        font-size: 20px;
+    }
+    .first-div p{
+        font-size: 15px;
+    }
+    .first-div img{
+        width:45px;
+        
+    }
+    .second-div{
+        width:325px;
+    
+    }
+    .bar{
+        width: 30px;
+    }
+    .weekdays p{
+        font-size: 12px;
+        margin-right: 23px;
+    }
+    hr{
+        width: 250px;
+    }
+    .last-div p {
+        font-size: 12px;
+    }
+    .last-div h3{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .open-wed{
+        font-size: 12px;
+        position: absolute;
+      top: 40%;
+      left:37%;
+      transform: translate(-15%, -15%);
+      width: 27px;
+      height: 13px;
+      background-color: black;
+      color: white;
+      padding: 8px;
+      border-radius: 5px;
+        z-index: 5;
+    }
+    .open-thu{
+        font-size: 12px;
+        position: absolute;
+      top: 46%;
+      left:49%;
+      transform: translate(-15%, -15%);
+      width: 27px;
+      height: 13px;
+    list-style: none;
+      background-color: black;
+      color: white;
+      padding: 8px;
+      border-radius: 5px;
+        z-index: 5;
+    }   
+}
